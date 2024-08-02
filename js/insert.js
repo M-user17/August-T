@@ -93,7 +93,7 @@ function checkFavorite() {
     }
   } else {
     swal({
-      title: 'Bạn nhỏ quên chưa chọn rồi :((',
+      title: 'Bạn cần chọn 1 thông tin',
       icon: imageSourcesEr[getRandomIndex(imageSourcesEr)]
     })
   }
