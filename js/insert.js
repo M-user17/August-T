@@ -33,7 +33,7 @@ nameX.addEventListener('keyup', function (event) {
 
 function checkUsername() {
   let username = document.querySelector('.usernameInput').value
-  if (username.trim() === 'Nguyễn Thị Nguyệt Minh') {
+  if (username.trim() === 'Nguyễn Thị Thắm') {
     passwordContainer.classList.remove('hiden')
     usernameContainer.disabled = true
     usernameContainer.classList.add('hiden')
@@ -44,7 +44,7 @@ function checkUsername() {
 }
 function checkBirthday() {
   let password = document.getElementById('birthday').value
-  if (password.trim() === '25/09/2003') {
+  if (password.trim() === '03/08/2003') {
     setImageTim()
 
     emailContainer.classList.remove('hiden')
@@ -56,7 +56,7 @@ function checkBirthday() {
 }
 function checkEmail() {
   let email = document.getElementById('email').value
-  if (email.trim() === '0375036130') {
+  if (email.trim() === '4768496231974001') {
     favoriteContainer.classList.remove('hiden')
     emailContainer.disabled = true
     emailContainer.classList.add('hiden')
@@ -103,7 +103,7 @@ function CheckEx() {
   let namex1 = document.getElementById('namex').value
   if (namex1.trim() === '') {
     swal({
-      title: 'Bạn nhỏ cứ nói tên nó ra để tui xử nó'
+      title: 'Ước đi mà đừng ngại :<'
     })
   } else {
     selectnamex.classList.add('hiden')
